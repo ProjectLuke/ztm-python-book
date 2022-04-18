@@ -135,3 +135,9 @@ print(first_word[0:4:1])
 #simple, a bool can be true or false
 is_cool = False
 now_cool = True
+
+
+#* Commenting Rules
+#Write code that is easy to read and easy to understand like english
+#Resource link
+# https://realpython.com/python-comments-guide/
