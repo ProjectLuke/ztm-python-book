@@ -141,3 +141,10 @@ now_cool = True
 #Write code that is easy to read and easy to understand like english
 #Resource link
 # https://realpython.com/python-comments-guide/
+
+
+#* Lists
+#An ordered sequence of collection of objects that can contain
+# any type
+#li = [1,2,3,4,5]
+#li2 = [1,2,'a', True]
