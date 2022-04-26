@@ -296,6 +296,9 @@ print(my_list[0]['a'][2])
 # Holds more information such as key
 # Can hold more information than Lists
 
+#? The other way of creating Dictionaries
+# user2 = dict(name = 'JohnJohn')
+
 
 #* Dictionary Keys
 #The key must be something that is immutable
@@ -304,3 +307,99 @@ dictionary = {
     True: 'hello', #valid
     [100]: True #Not Valid
 }
+#Most of the time the key is ususally something
+# descriptive and easily understood 
+#Also the key has to be unique, one key cannot/should not
+# represent two different values
+
+
+# #* Dictionary Methods
+# clear()	Removes all the elements from the dictionary
+# copy()	Returns a copy of the dictionary
+# fromkeys()	Returns a dictionary with the specified keys and value
+# get()	Returns the value of the specified key
+# items()	Returns a list containing a tuple for each key value pair
+# keys()	Returns a list containing the dictionary's keys
+# pop()	Removes the element with the specified key
+# popitem()	Removes the last inserted key-value pair
+# setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+# update()	Updates the dictionary with the specified key-value pairs
+# values()	Returns a list of all the values in the dictionary
+
+
+
+#* Tuples
+#Tuples are like lists but they cannot be modified
+#Because they cannot be changed, they are faster than regular lists
+my_tuple = (1,2,3,4,5)
+#Use Cases
+# Don't need to change the list
+# Also good practice to use the right data structures for clean code purposes
+# Real examples: coordinates, pickup point
+
+#? Can also use Tuples as a key in dictionaries
+user = {
+    (1,2): [1,2,3],
+    'greet': 'hello',
+    'age': 20
+}
+
+
+#* Tuple Methods
+# count()	Returns the number of times a specified value occurs in a tuple
+# index()	Searches the tuple for a specified value and returns the position of where it was found
+
+
+#* Set
+#Unordered collection of unique objects
+my_set = {1,2,3,4,5}
+print(my_set)
+
+my_other_set = {1,2,3,4,5,5}
+print(my_other_set)
+#! If you print the above, you'll notice it still outputs only one 5
+#Basically, sets do not allow duplicates
+
+
+#* Set Methods
+# add()	Adds an element to the set
+# clear()	Removes all the elements from the set
+# copy()	Returns a copy of the set
+# difference()	Returns a set containing the difference between two or more sets
+# difference_update()	Removes the items in this set that are also included in another, specified set
+# discard()	Remove the specified item
+# intersection()	Returns a set, that is the intersection of two or more sets
+# intersection_update()	Removes the items in this set that are not present in other, specified set(s)
+# isdisjoint()	Returns whether two sets have a intersection or not
+# issubset()	Returns whether another set contains this set or not
+# issuperset()	Returns whether this set contains another set or not
+# pop()	Removes an element from the set
+# remove()	Removes the specified element
+# symmetric_difference()	Returns a set with the symmetric differences of two sets
+# symmetric_difference_update()	inserts the symmetric differences from this set and another
+# union()	Return a set containing the union of sets
+# update()	Update the set with another set, or any other iterable
+
+
+
+
+#* Conditional Logic
+# if condition:
+#     do something here
+#     return
+# elif condition:
+#     do something here
+#     return
+# else:
+#     do this
+
+is_old = True
+is_licensed = True
+
+if is_old:
+    print("You are old enough to drive!")
+print("You cannot drive")
+
+#If the condition is false, then it will not print
+# the 'You are old enough to drive' line
+
