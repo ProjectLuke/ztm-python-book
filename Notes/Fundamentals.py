@@ -398,7 +398,24 @@ is_licensed = True
 
 if is_old:
     print("You are old enough to drive!")
-print("You cannot drive")
+print("You need a license to drive")
+
+if is_old and is_licensed:
+    print("You can drive")
+
+if is_old or is_licensed:
+    print("You need both to drive")
 
 #If the condition is false, then it will not print
 # the 'You are old enough to drive' line
+
+
+#* Indentation matters
+#Grouping certain stuff like if and loops
+# group them together by using indentation
+
+
+#* Truthy vs Falsey
+#Truthy value: When using a type convertor, print(bool(5)) the result
+# somehow comes out 'True' 
+
