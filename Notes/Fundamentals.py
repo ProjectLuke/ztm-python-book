@@ -409,13 +409,41 @@ if is_old or is_licensed:
 #If the condition is false, then it will not print
 # the 'You are old enough to drive' line
 
-
 #* Indentation matters
 #Grouping certain stuff like if and loops
 # group them together by using indentation
 
-
 #* Truthy vs Falsey
 #Truthy value: When using a type convertor, print(bool(5)) the result
 # somehow comes out 'True' 
+#Basically there are some types here or results that lead to 'true' or 'false'
+# which leads to the terminology of 'truthy vs falsy'
+
+#* Ternary Operator
+#? This is sort of a shothand version of doing ifelse
+condition_if_true if condition else condition_if_false
+#This does and can work but only in certain situations
+
+#! Ex
+is_friend = True
+can_message = "message allowed" if is_friend else "not allowed to message"
+
+
+#* Short Circuiting
+#Using ifelse in such a way that if something is true, the code
+# can skip the rest of the unnessecary work and display only what 
+# is needed to be displayed
+
+#* Logical Operators
+# and
+# or
+# not <- displays the opposite of the result
+# >
+# >=
+# <
+# <=
+# ==
+# !=  <- this is an actual operator
+# The operator above says 'Only true if these two are mismatched'
+
 
