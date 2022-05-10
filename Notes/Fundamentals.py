@@ -446,4 +446,73 @@ can_message = "message allowed" if is_friend else "not allowed to message"
 # !=  <- this is an actual operator
 # The operator above says 'Only true if these two are mismatched'
 
+#* Is vs ==
+# == checks for the equality in value
+# is checks if the location in memeory where the value is stored, is the same
+
+#* For Loops
+#? Naming convention, if you do not need the v
+#Allows us to iterate a collection of items
+#Iterables are objects are a collection that can be itereated multiple times
+# Itereated -> one by one check each item in the collection
+for iterate in iterable:
+    return
+
+for item in user.items():
+    print(item)
+    
+for item in user.values():
+    print(item)
+#! More Ex
+user = {
+    'name': 'Golem',
+    'age': 5006,
+    'can_swim': False
+}
+
+for key, value in user.items():
+    print(key, value)
+    
+for item in user.values():
+    print(item)
+
+#! The below is pulled from another set of notes
+fruits = ["Apple", "Peach", "Pear"]
+#fruit is the variable assigned to the items in the list 'fruits'
+for fruit in fruits:
+    print(fruit)
+    print(fruit + " Pie")
+print(fruits)
+
+#Loops and range
+for number in range(1,10,2):
+    print(number)
+#This only prints 1 - 9, have to change the 10 to a 11 if want to print from 1 - 10
+#The 2 shows how it will skip/step acorss different numbers
+
+total = 0
+for number in range(1, 101):
+    total += number
+print(total)
+
+#While Loops
+while something_is_true:
+    print("something")
+    #Do something repeatedly
+    
+#For Loops
+for item in list_of_items:
+    print("Do this")
+    #Do something to each item
+
+for number in range(a, b):
+    print(number)
+    
+#When to use for loop and while loop
+#For loops are for when wanting to reiterate specific number of times
+#   in a range or list
+
+#While loops are for when you don't really care how many times
+#   it takes to carry out a functionality, just as long as it
+#   does it until the condition is met
 

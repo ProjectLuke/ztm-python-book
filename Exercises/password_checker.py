@@ -31,3 +31,4 @@ password_input = input("Password: ")
 password_length = pass_length(password_input)
 
 print(f"Username: {username_input}\nPassword: {pass_encrypt(password_input)}\nPassword Length: {pass_length(password_input)} ")
+ 
