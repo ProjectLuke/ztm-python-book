@@ -517,3 +517,9 @@ for number in range(a, b, c):
 #   it takes to carry out a functionality, just as long as it
 #   does it until the condition is met
 
+#* Enumerate()
+for i, char in enumerate('Hellooooo'):
+    print(i, char)
+#Take the iterable and gives the index counter and
+#   the item of the index
+
