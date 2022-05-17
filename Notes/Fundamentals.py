@@ -505,8 +505,9 @@ for item in list_of_items:
     print("Do this")
     #Do something to each item
 
-for number in range(a, b):
+for number in range(a, b, c):
     print(number)
+#c is a step over, so can have it go by evens, odds, backwards etc
     
 #When to use for loop and while loop
 #For loops are for when wanting to reiterate specific number of times
