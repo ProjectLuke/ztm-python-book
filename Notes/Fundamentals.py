@@ -523,3 +523,25 @@ for i, char in enumerate('Hellooooo'):
 #Take the iterable and gives the index counter and
 #   the item of the index
 
+#* While Loops
+while condition:
+    print("do this")
+    i += 1
+    break
+else:
+    print("Done doing the [do this]")
+#While loops need a condition to activate and run
+    #can use a break to stop
+#! The else statement can only be ran if there is no 'break'
+
+#?For simple iterable objects - use for loops
+#?For unknown numbers and more heft work use while loops
+
+
+
+#* break, continue, pass
+#break - breaks out of the current enclosing loop
+#continue - whatever happens, continue to the top of the current enclosed loop
+#pass - not too useful, kinda just does nothing
+
+
